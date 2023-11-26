@@ -1,0 +1,14 @@
+int search(int arr[], int N, int X)
+{
+    int i,flag=0;
+    for(i=0;i<N;i++)
+    {
+        if(arr[i]==X)
+        {
+            return i;
+            flag++;
+        }
+    }
+    if(flag==0)
+        return -1;
+}
